@@ -24,7 +24,7 @@
 		"nette/di": "~2.4.17",
 		"nette/finder": "~2.5.2",
 		"nette/utils": "~2.5.7",
-		"carrooi/helpers": "dev-master"
+		"carrooi/helpers": "dev-main"
 	},
 	"require-dev": {
 		"nette/bootstrap": "~2.4.6",

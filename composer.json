@@ -1,0 +1,43 @@
+{
+	"repositories": [
+		{
+			"type": "github",
+			"url": "https://github.com/mabar/Nette-Helpers.git"
+		}
+	],
+	"name": "carrooi/assets",
+	"type": "library",
+	"description": "Modular assets system for Nette framework",
+	"keywords": ["carrooi", "assets", "nette", "css", "js", "javascript"],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "David Kudera",
+			"homepage": "http://davidkudera.com",
+			"email": "kudera.d@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1.0",
+		"nette/application": "~2.4.17",
+		"nette/caching": "~2.5.9",
+		"nette/di": "~2.4.17",
+		"nette/finder": "~2.5.2",
+		"nette/utils": "~2.5.7",
+		"carrooi/helpers": "dev-master"
+	},
+	"require-dev": {
+		"nette/bootstrap": "~2.4.6",
+		"nette/mail": "~2.4.6",
+		"nette/safe-stream": "~2.4.2",
+		"nette/tester": "~2.4.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Carrooi\\Assets\\": "src/"
+		},
+		"classmap": [
+			"src/exceptions.php"
+		]
+	}
+}

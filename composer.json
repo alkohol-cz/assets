@@ -2,7 +2,7 @@
 	"repositories": [
 		{
 			"type": "github",
-			"url": "https://github.com/mabar/Nette-Helpers.git"
+			"url": "https://github.com/alkohol-cz/helpers.git"
 		}
 	],
 	"name": "carrooi/assets",
